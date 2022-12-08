@@ -1,0 +1,80 @@
+<style type="text/css">
+        h1 {
+            font-size: 28px;
+            color: darkslategray
+           }
+h2{
+    font-size: 20px;
+    color: darkslategray
+}
+
+.subtitulo{
+    color: darkslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+pre{
+    font-size: 15cm;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: darkslategray;
+    align-items: center;
+}
+.logo{
+    
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+body{
+    
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white; 
+}
+
+.logo-nombre{
+    color: white;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    
+    nav{
+        padding: 10px 0px;
+    }
+}
+</style>
